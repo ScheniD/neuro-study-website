@@ -1,24 +1,24 @@
 # Neuro-Study.io
 
-This is the landing page for **Neuro-Study.io**, an academic coaching service by Dominik Schenitzki.
+Dies ist die Landing Page für **Neuro-Study.io**, einem akademischen Coaching-Service von Dominik Schenitzki.
 
-## Project Structure
+## Projektstruktur
 
-- `index.html`: Main landing page with scientific modals and booking integration.
-- `style.css`: Custom styling with light/dark mode support.
-- `script.js`: Logic for modals, theme toggling, and integrations.
+- `index.html`: Haupt-Landingpage mit wissenschaftlichen Modals und Buchungsintegration.
+- `style.css`: Benutzerdefiniertes Styling mit Unterstützung für Hell-/Dunkelmodus.
+- `script.js`: Logik für Modals, Theme-Umschaltung und Integrationen.
 
-## Features
+## Funktionen
 
-- **Scientific Design:** Modals based on cognitive science principles (Active Recall, Spaced Repetition).
-- **Booking Integration:** Seamless Cal.com widget for scheduling appointments.
-- **Responsive:** Optimized for mobile and desktop viewing.
-- **Dark Mode:** User-preference aware theming.
+- **Wissenschaftliches Design:** Modals basierend auf kognitionswissenschaftlichen Prinzipien (Active Recall, Spaced Repetition).
+- **Buchungsintegration:** Nahtloses Cal.com Widget zur Terminvereinbarung.
+- **Responsiv:** Optimiert für mobile und Desktop-Ansichten.
+- **Dunkelmodus:** Design passt sich den Nutzerpräferenzen an.
 
-## Development
+## Entwicklung
 
-To run locally, simply open `index.html` in your browser.
+Um das Projekt lokal auszuführen, öffnen Sie einfach die `index.html` in Ihrem Browser.
 
-## Documentation
+## Dokumentation
 
-For a detailed visual walkthrough of the latest changes, see [WALKTHROUGH.md](WALKTHROUGH.md).
+Für einen detaillierten visuellen Durchlauf der neuesten Änderungen, siehe [WALKTHROUGH.md](WALKTHROUGH.md).

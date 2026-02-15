@@ -1,25 +1,25 @@
 # Walkthrough - Academic Coach Landing Page
 
-I have upgraded the landing page to a sophisticated **Light Mode** design with depth, enhanced functionality, a **Dark Mode Toggle**, **Minimalist Icons**, and a **Refined Navigation**.
+Ich habe die Landing Page auf ein anspruchsvolles **Light Mode** Design mit Tiefe, verbesserter Funktionalität, einem **Dark Mode Toggle**, **minimalistischen Icons** und einer **verfeinerten Navigation** aktualisiert.
 
-## Cal.com Integration (Global Fix)
+## Cal.com Integration (Globaler Fix)
 
-### 1. Seamless Booking Everywhere
--   **Universal Coverage:** The booking function now works on **ALL** Call-to-Action buttons.
--   **Trigger Points:**
+### 1. Nahtlose Buchung überall
+-   **Universelle Abdeckung:** Die Buchungsfunktion funktioniert jetzt bei **ALLEN** Call-to-Action Buttons.
+-   **Trigger-Punkte:**
     -   **Hero:** "Kostenloses Erstgespräch"
     -   **1:1 Coaching Modal:** "Jetzt Analyse-Gespräch buchen"
     -   **Notion Modal:** "System zeigen lassen"
-    -   **Exam Prep Modal:** "Lern-Algorithmus aufsetzen"
+    -   **Prüfungsvorbereitung Modal:** "Lern-Algorithmus aufsetzen"
     -   **Footer:** "Jetzt kostenloses Erstgespräch buchen"
 
-### 2. Integrations & Socials
--   **Social Media:** LinkedIn, Instagram, and GitHub icons added to the footer.
--   **Clean Code:** Removed duplicate modals and streamlined event handling.
+### 2. Integrationen & Socials
+-   **Social Media:** LinkedIn, Instagram und GitHub Icons im Footer hinzugefügt.
+-   **Sauberer Code:** Doppelte Modals entfernt und Event-Handling optimiert.
 
-## Video Tours
+## Video-Touren
 
-### Cal.com Global Verification
+### Cal.com Globale Verifizierung
 ![Cal.com Global Fix](docs/images/verify_cal_com_global_fix_1771163524303.webp)
 
 ## Screenshots
@@ -30,8 +30,8 @@ I have upgraded the landing page to a sophisticated **Light Mode** design with d
 ### Coaching Modal Popup
 ![Coaching Modal](docs/images/coaching_modal_cal_popup_fixed_1771163173476.png)
 
-### Exam Prep Modal Popup
+### Prüfungsvorbereitung Modal Popup
 ![Exam Modal](docs/images/exam_prep_modal_cal_popup_1771163091714.png)
 
-## Next Steps
--   **Add Real Assets:** Replace the placeholders with real photos/screenshots.
+## Nächste Schritte
+-   **Echte Inhalte hinzufügen:** Platzhalter durch echte Fotos/Screenshots ersetzen.
