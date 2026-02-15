@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominik Schenitzki | Academic Performance & Life Coach</title>
+    <meta name="description"
+        content="Dein Erfolg ist planbar. Individuelles 1:1 Coaching und Notion-Systeme für Schüler und Studenten.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="container nav-container"
+            style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="#" class="logo" style="flex: 1;">Dominik Schenitzki</a>
+
+            <div class="nav-menu" style="flex: 2; display: flex; justify-content: center; gap: 2rem;">
+                <a href="#solution" class="nav-link">Mein Ansatz</a>
+                <a href="#about" class="nav-link">Über Mich</a>
+
+                <div class="dropdown">
+                    <button class="nav-link dropdown-toggle"
+                        style="background: none; border: none; cursor: pointer; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 4px;">Angebote
+                        <i class="ph ph-caret-down"></i></button>
+                    <div class="dropdown-menu">
+                        <button class="dropdown-item open-modal-btn" data-modal="modal-coaching"><i
+                                class="ph ph-brain"></i> 1:1 Coaching (Mentoring)</button>
+                        <button class="dropdown-item open-modal-btn" data-modal="modal-notion"><i
+                                class="ph ph-database"></i> Notion System-Setup</button>
+                        <button class="dropdown-item open-modal-btn" data-modal="modal-exam"><i
+                                class="ph ph-lightning"></i> Crashkurs Prüfungsvorbereitung</button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="flex: 1; display: flex; justify-content: flex-end;">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="ph ph-sun icon-sun"></i>
+                    <i class="ph ph-moon icon-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="split-layout">
+                <div class="hero-text">
+                    <h1 class="fade-in">Dein Erfolg ist planbar.<br>Vom Chaos zur Bestnote.</h1>
+                    <p class="subline fade-in delay-1">Individuelles 1:1 Coaching kombiniert mit digitalen Systemen
+                        (Notion), um deinen Lernprozess effizient zu gestalten.</p>
+                    <button class="btn btn-primary fade-in delay-2"
+                        data-cal-link="dominikschenitzki/kostenloses-erstgesprach"
+                        data-cal-namespace="kostenloses-erstgesprach"
+                        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Kostenloses
+                        Erstgespräch</button>
+                </div>
+                <div class="hero-visual placeholder-container fade-in delay-2">
+                    <div>
+                        <i class="ph ph-user icon-placeholder"></i>
+                        <p>Platzhalter: Foto von Dominik (Portrait)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="problem" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Kennst du das?</h2>
+            <div class="grid-3">
+                <div class="card problem-card">
+                    <div class="icon"><i class="ph ph-hourglass-high"></i></div>
+                    <h3>Prokrastination</h3>
+                    <p>Du schiebst wichtige Aufgaben immer wieder auf, bis es fast zu spät ist.</p>
+                </div>
+                <div class="card problem-card">
+                    <div class="icon"><i class="ph ph-compass"></i></div>
+                    <h3>Fehlender Überblick</h3>
+                    <p>Du weißt nicht, wo du anfangen sollst und verzettelst dich im Stoff.</p>
+                </div>
+                <div class="card problem-card">
+                    <div class="icon"><i class="ph ph-cloud-lightning"></i></div>
+                    <h3>Prüfungsangst</h3>
+                    <p>Das Gefühl, trotz Lernen "nicht gut genug" zu sein, blockiert dich.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="section bg-white">
+        <div class="container">
+            <div class="split-layout">
+                <div class="text-content">
+                    <h2 class="section-title">Die Lösung: Hybrid-Coaching</h2>
+                    <p class="lead">Mehr als nur Nachhilfe. Es ist Mentoring + Tool-Setup.</p>
+                    <ul class="feature-list">
+                        <li><strong>Strategie statt Pauken:</strong> Lerne effektive Methoden, nicht nur Fakten.</li>
+                        <li><strong>Digitales System:</strong> Sche Schluss mit der Zettelwirtschaft.</li>
+                        <li><strong>Organisation:</strong> Ich richte dir dein persönliches Lern-Dashboard in Notion
+                            ein.</li>
+                        <li><strong>Mindset:</strong> Wir arbeiten an deiner Einstellung zu Prüfungen und Leistung.</li>
+                    </ul>
+                </div>
+                <div class="solution-visual placeholder-container">
+                    <div>
+                        <i class="ph ph-desktop icon-placeholder"></i>
+                        <p>Platzhalter: Screenshot Notion-Dashboard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-alt">
+        <div class="container">
+            <div class="split-layout reverse-mobile">
+                <div class="image-content">
+                    <div class="about-visual placeholder-container" id="dominik-photo">
+                        <div>
+                            <i class="ph ph-hand-waving icon-placeholder"></i>
+                            <p>Platzhalter: Foto von Dominik (Freizeit)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <h2 class="section-title">Über Mich</h2>
+                    <h3>Vom Realschulabschluss zum Erfolg</h3>
+                    <p>Ich war kein geborenes Genie. Mein Weg führte über die Realschule, bevor ich das Abitur auf dem
+                        zweiten Bildungsweg nachgeholt habe.</p>
+                    <p><strong>Die Kern-Erkenntnis:</strong> Erfolg in der Schule und Uni liegt nicht an reiner
+                        Intelligenz, sondern an den richtigen Systemen und Lernstrategien.</p>
+                    <p>Meine Mission ist es, genau diese Strategien und Systeme an dich weiterzugeben, damit du dir den
+                        harten Weg sparen kannst.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social-proof" class="section bg-white">
+        <div class="container">
+            <h2 class="section-title">Ergebnisse</h2>
+            <div class="grid-2">
+                <div class="card testimonial-card">
+                    <p class="quote">"Endlich habe ich Struktur in meinem Studium. Notion hat alles verändert."</p>
+                    <p class="author">— Jonas, Student (BWL)</p>
+                </div>
+                <div class="card testimonial-card">
+                    <p class="quote">"Dominik hat mir gezeigt, dass ich nicht 'zu dumm' bin, sondern nur falsch gelernt
+                        habe."</p>
+                    <p class="author">— Sarah, Abiturientin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-cta">
+                <h2>Bereit für deinen Durchbruch?</h2>
+                <button class="btn btn-primary" data-cal-link="dominikschenitzki/kostenloses-erstgesprach"
+                    data-cal-namespace="kostenloses-erstgesprach"
+                    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Jetzt kostenloses
+                    Erstgespräch buchen</button>
+            </div>
+            <div class="footer-links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+                <a href="agb.html">AGB</a>
+                <a href="mailto:kontakt@dominik-coaching.de">Kontakt</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dominik-schenitzki/" target="_blank" aria-label="LinkedIn"><i
+                        class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.instagram.com/dominik_ic/" target="_blank" aria-label="Instagram"><i
+                        class="ph ph-instagram-logo"></i></a>
+                <a href="https://github.com/ScheniD" target="_blank" aria-label="GitHub"><i
+                        class="ph ph-github-logo"></i></a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2026 Dominik Schenitzki
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal A: 1:1 Coaching -->
+    <div id="modal-coaching" class="modal">
+        <div class="modal-content science-modal">
+            <span class="close-modal">&times;</span>
+            <i class="ph ph-brain modal-icon"></i>
+            <h2>Neuroplastizität & Fokus-Protokolle</h2>
+            <blockquote class="science-quote">"Neuroplasticity is triggered by intense focus, but the actual rewiring
+                happens during deep rest." <br><span class="author">– Andrew Huberman</span></blockquote>
+            <p class="modal-text">Dein Gehirn lernt nicht durch passives Zuhören, sondern durch gezielte Reize. Die
+                meisten Studenten scheitern nicht am Intellekt, sondern an fehlenden Protokollen für Fokus-Steuerung
+                (Dopamin-Management). Wir analysieren deine neurochemischen Zeitfenster und erstellen einen Plan, der
+                biologisch funktioniert, statt gegen deinen Körper zu arbeiten.</p>
+            <button class="btn btn-primary" data-cal-link="dominikschenitzki/kostenloses-erstgesprach"
+                data-cal-namespace="kostenloses-erstgesprach"
+                data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Jetzt Analyse-Gespräch
+                buchen</button>
+        </div>
+    </div>
+
+    <!-- Modal B: Notion System -->
+    <div id="modal-notion" class="modal">
+        <div class="modal-content science-modal">
+            <span class="close-modal">&times;</span>
+            <i class="ph ph-database modal-icon"></i>
+            <h2>Reduziere deinen 'Cognitive Load'</h2>
+            <p class="concept-tag">Basierend auf der Cognitive Load Theory (Sweller)</p>
+            <p class="modal-text">Dein Arbeitsgedächtnis ist begrenzt. Wer versucht, Termine, To-Dos und Lernstoff
+                gleichzeitig im Kopf zu behalten, blockiert wertvolle Ressourcen für das Verständnis. Mein Notion-System
+                fungiert als dein "externer Cortex". Wir lagern Organisation aus, damit 100% deiner mentalen Energie in
+                das Lösen komplexer Probleme fließen kann.</p>
+            <button class="btn btn-primary" data-cal-link="dominikschenitzki/kostenloses-erstgesprach"
+                data-cal-namespace="kostenloses-erstgesprach"
+                data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>System zeigen
+                lassen</button>
+        </div>
+    </div>
+
+    <!-- Modal C: Exam Prep -->
+    <div id="modal-exam" class="modal">
+        <div class="modal-content science-modal">
+            <span class="close-modal">&times;</span>
+            <i class="ph ph-arrows-clockwise modal-icon"></i>
+            <h2>Schluss mit "Passive Re-Reading"</h2>
+            <blockquote class="science-quote">"Repeated testing produces superior retention compared to repeated
+                studying." <br><span class="author">– Roediger & Karpicke (Science, 2006)</span></blockquote>
+            <p class="modal-text">Unterstreichen und Zusammenfassen ist laut Studienlage eine der ineffektivsten
+                Lernmethoden ("Illusion of Competence"). Wir stellen deinen Prozess radikal um auf "Active Recall" und
+                "Spaced Repetition". Du wirst weniger Zeit am Schreibtisch verbringen, aber das Doppelte behalten. Ich
+                zeige dir, wie du das algorithmisch steuerst.</p>
+            <button class="btn btn-primary open-booking">Lernstrategie optimieren</button>
+        </div>
+    </div>
+
+    <!-- Booking Modal (Calendly) -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content" style="max-width: 700px; height: 90vh; max-height: 800px; padding: 0;">
+            <span class="close-modal" style="z-index: 10; right: 15px; top: 10px;">&times;</span>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/dominik-schenitzki"
+                style="min-width:320px;height:100%;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
+        </div>
+    </div>
+
+    <!-- Cal.com Embed Code -->
+    <script type="text/javascript">
+        (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+        Cal("init", "kostenloses-erstgesprach", { origin: "https://app.cal.com" });
+        Cal.ns["kostenloses-erstgesprach"]("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
