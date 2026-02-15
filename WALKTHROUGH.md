@@ -20,18 +20,18 @@ Ich habe die Landing Page auf ein anspruchsvolles **Light Mode** Design mit Tief
 ## Video-Touren
 
 ### Cal.com Globale Verifizierung
-![Cal.com Global Fix](docs/images/verify_cal_com_global_fix_1771163524303.webp)
+![Cal.com Global Fix](assets/images/verify_cal_com_global_fix_1771163524303.webp)
 
 ## Screenshots
 
 ### Hero CTA Popup
-![Hero CTA](docs/images/hero_cta_cal_popup_1771162988431.png)
+![Hero CTA](assets/images/hero_cta_cal_popup_1771162988431.png)
 
 ### Coaching Modal Popup
-![Coaching Modal](docs/images/coaching_modal_cal_popup_fixed_1771163173476.png)
+![Coaching Modal](assets/images/coaching_modal_cal_popup_fixed_1771163173476.png)
 
 ### Prüfungsvorbereitung Modal Popup
-![Exam Modal](docs/images/exam_prep_modal_cal_popup_1771163091714.png)
+![Exam Modal](assets/images/exam_prep_modal_cal_popup_1771163091714.png)
 
 ## Nächste Schritte
 -   **Echte Inhalte hinzufügen:** Platzhalter durch echte Fotos/Screenshots ersetzen.
