@@ -24,17 +24,12 @@ Ich habe die Landing Page auf ein anspruchsvolles **Light Mode** Design mit Tief
 
 ## Screenshots
 
-### Hero CTA Popup
+###  Calender Popup
 ![Hero CTA](assets/images/hero_cta_cal_popup_1771162988431.png)
 
-### Coaching Modal Popup
-![Coaching Modal](assets/images/coaching_modal_cal_popup_fixed_1771163173476.png)
-
-### Prüfungsvorbereitung Modal Popup
-![Exam Modal](assets/images/exam_prep_modal_cal_popup_1771163091714.png)
 
 ## Nächste Schritte
 -   **Echte Inhalte hinzufügen:** Platzhalter durch echte Fotos/Screenshots ersetzen.
 
 ---
-*Hinweis: Dieser Walkthrough, sowie große Teile des zugrundeliegenden HTML- und CSS-Codes, wurden durch **Künstliche Intelligenz** generiert und dokumentiert.*
+*Hinweis: Dieser Walkthrough, sowie Teile des zugrundeliegenden HTML- und CSS-Codes, wurden durch **Künstliche Intelligenz** generiert und dokumentiert.*
