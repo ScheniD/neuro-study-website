@@ -126,3 +126,40 @@ if (themeToggle) {
     });
 }
 
+// Mobile Menu Logic
+const mobileBtn = document.querySelector('.mobile-menu-btn');
+const navMenu = document.querySelector('.nav-menu');
+const navLinks = document.querySelectorAll('.nav-link');
+
+if (mobileBtn && navMenu) {
+    mobileBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        const icon = mobileBtn.querySelector('i');
+        if (navMenu.classList.contains('active')) {
+            icon.classList.replace('ph-list', 'ph-x');
+            document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+        } else {
+            icon.classList.replace('ph-x', 'ph-list');
+            document.body.style.overflow = '';
+        }
+    });
+
+    // Close menu when a link is clicked
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            // If it's the dropdown toggle, don't close the menu, just toggle the dropdown
+            if (link.classList.contains('dropdown-toggle')) {
+                const dropdown = link.closest('.dropdown');
+                dropdown.classList.toggle('active');
+                return;
+            }
+
+            if (navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                mobileBtn.querySelector('i').classList.replace('ph-x', 'ph-list');
+                document.body.style.overflow = '';
+            }
+        });
+    });
+}
+
