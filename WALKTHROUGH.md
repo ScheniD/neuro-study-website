@@ -35,3 +35,6 @@ Ich habe die Landing Page auf ein anspruchsvolles **Light Mode** Design mit Tief
 
 ## Nächste Schritte
 -   **Echte Inhalte hinzufügen:** Platzhalter durch echte Fotos/Screenshots ersetzen.
+
+---
+*Hinweis: Dieser Walkthrough, sowie große Teile des zugrundeliegenden HTML- und CSS-Codes, wurden durch **Künstliche Intelligenz** generiert und dokumentiert.*

@@ -22,3 +22,7 @@ Um das Projekt lokal auszuführen, öffnen Sie einfach die `index.html` in Ihrem
 ## Dokumentation
 
 Für einen detaillierten visuellen Durchlauf der neuesten Änderungen, siehe [WALKTHROUGH.md](WALKTHROUGH.md).
+
+## Credits / Hinweise
+
+Dieses Projekt wurde unter massiver Beteiligung von **Künstlicher Intelligenz (KI)** entwickelt. Ein Großteil des **HTML- und CSS-Codes** wurde von einer leistungsstarken KI generiert, um moderne Webstandards und ein "Editorial Design" effizient umzusetzen. Auch dieser **Walkthrough** wurde automatisch durch die KI erstellt.
